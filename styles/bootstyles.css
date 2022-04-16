@@ -1,0 +1,41 @@
+.header {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 21px;
+    padding-top: 5mm;
+}
+
+.profit {
+    height: 20cm; 
+    width: 15cm;
+    border-left: 50cm;
+}
+
+p {
+    font-size: 19px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.footer {
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    height: 10px;
+    font-size: 15px;
+    text-align: center;
+    color: darkgray;
+    position: fixed absolute;
+}
+
+.header {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+    z-index: 2;
+    position: absolute;
+}
+
+.subheader {
+    float: right;
+}
